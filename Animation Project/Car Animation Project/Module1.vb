@@ -8,18 +8,20 @@
         'I will be making a rocket launch
 
 
-        'x Controls the movement of the cloud
-        Dim x As Integer
-        x = 12
+        'c Controls the movement of the cloud
+        Dim c As Integer
+        c = 12
 
 
         'y controls the movement of the rocket in the first world
         Dim y As Integer
-        y = 20
+        y = 19
 
-        'y controls the movement of the rocket in the second world
+
+        'z makes the rocket in the second world
         Dim z As Integer
         z = 22
+
 
         'Customizing the window
 
@@ -46,15 +48,14 @@
             Console.Write(Space(9))
         Next
 
+        'Making the grass
 
-        'Making and moving the rocket
+        Console.SetCursorPosition(0, 40)
+        Console.BackgroundColor = ConsoleColor.Green
+        Console.Write(Space(750))
 
-        Console.BackgroundColor = ConsoleColor.DarkCyan
-        For i = 10 To 45
-            Console.SetCursorPosition(35, i)
-            Console.Write(Space(60))
-        Next
 
+        'Making the rocket
         Console.BackgroundColor = ConsoleColor.Red
         Console.ForegroundColor = ConsoleColor.Red
         Console.SetCursorPosition(38, y)
@@ -73,7 +74,6 @@
         For i = 5 To 17
             Console.SetCursorPosition(34, y + i)
             Console.Write(Space(10))
-
         Next
 
         Console.BackgroundColor = ConsoleColor.Black
@@ -109,7 +109,7 @@
         Console.BackgroundColor = ConsoleColor.Black
 
         For j = 26 To 39
-            Console.SetCursorPosition(22, j)
+            Console.SetCursorPosition(22, j - 1)
             Console.Write(Space(4))
         Next
 
@@ -118,14 +118,10 @@
         Console.SetCursorPosition(22, 25)
         Console.Write(Space(12))
 
-        'Making the grass
-
-        Console.SetCursorPosition(0, 40)
-        Console.BackgroundColor = ConsoleColor.Green
-        Console.Write(Space(800))
 
 
-        'Making and moving the cloud
+
+        'Moving the cloud
 
 loopstartCloud:
 
@@ -135,27 +131,27 @@ loopstartCloud:
         Console.BackgroundColor = ConsoleColor.DarkCyan
 
         For i = 8 To 11
-            Console.SetCursorPosition(x, i)
-            Console.Write(Space(100))
+            Console.SetCursorPosition(c, i)
+            Console.Write(Space(75))
         Next
 
         'Moving the cloud
 
-        x = x + 1
+        c = c + 1
 
         Console.ForegroundColor = ConsoleColor.Gray
         Console.BackgroundColor = ConsoleColor.White
-        Console.SetCursorPosition(x, 8)
-        Console.Write("_  _")
-        Console.SetCursorPosition(x, 9)
+        Console.SetCursorPosition(c, 8)
+        Console.Write(" _  _")
+        Console.SetCursorPosition(c, 9)
         Console.Write("( `   )_")
-        Console.SetCursorPosition(x - 1, 10)
+        Console.SetCursorPosition(c - 1, 10)
         Console.Write("(    )    `)")
-        Console.SetCursorPosition(x - 1, 11)
+        Console.SetCursorPosition(c - 1, 11)
         Console.Write("(_   (_ .  _)")
-        Sleep(30)
+        Sleep(20)
 
-        If x = 63 Then GoTo programendCloud
+        If c = 63 Then GoTo programendCloud
 
         GoTo loopstartCloud
 
@@ -169,117 +165,127 @@ programendCloud:
             Console.Write(Space(50))
         Next
 
+
         'Making the countdown
 
-        Console.SetCursorPosition(28, 10)
-        Console.BackgroundColor = ConsoleColor.DarkCyan
-        Console.ForegroundColor = ConsoleColor.Red
-        Console.Write("Liftoff in T-5 seconds")
-        Sleep(1500)
-        Console.SetCursorPosition(28, 10)
-        Console.Write(Space(22))
-        Console.ForegroundColor = ConsoleColor.Red
-        Console.SetCursorPosition(39, 10)
-        Console.Write("5")
-        Console.Beep(1400, 250)
-        Sleep(1000)
-        Console.SetCursorPosition(39, 10)
-        Console.Write("4")
-        Console.Beep(1400, 250)
-        Sleep(1000)
-        Console.SetCursorPosition(39, 10)
-        Console.Write("3")
-        Console.Beep(1400, 250)
-        Sleep(1000)
-        Console.SetCursorPosition(39, 10)
-        Console.Write("2")
-        Console.Beep(1400, 250)
-        Sleep(1000)
-        Console.SetCursorPosition(39, 10)
-        Console.Write("1")
-        Console.Beep(1400, 250)
-        Sleep(1000)
-        Console.SetCursorPosition(35, 10)
-        Console.Write("Takeoff!")
-        Sleep(70)
+        'Console.SetCursorPosition(28, 10)
+        'Console.BackgroundColor = ConsoleColor.DarkCyan
+        'Console.ForegroundColor = ConsoleColor.Red
+        'Console.Write("Liftoff in T-5 seconds")
+        'Sleep(1500)
+        'Console.SetCursorPosition(28, 10)
+        'Console.Write(Space(22))
+        'Console.ForegroundColor = ConsoleColor.Red
+        'Console.SetCursorPosition(39, 10)
+        'Console.Write("5")
+        'Console.Beep(1400, 250)
+        'Sleep(1000)
+        'Console.SetCursorPosition(39, 10)
+        'Console.Write("4")
+        'Console.Beep(1400, 250)
+        'Sleep(1000)
+        'Console.SetCursorPosition(39, 10)
+        'Console.Write("3")
+        'Console.Beep(1400, 250)
+        'Sleep(1000)
+        'Console.SetCursorPosition(39, 10)
+        'Console.Write("2")
+        'Console.Beep(1400, 250)
+        'Sleep(1000)
+        'Console.SetCursorPosition(39, 10)
+        'Console.Write("1")
+        'Console.Beep(1400, 250)
+        'Sleep(1000)
+        'Console.SetCursorPosition(35, 10)
+        'Console.Write("Takeoff!")
+        'Console.Beep(3000, 500)
+        'Sleep(500)
 
-        'Making and launching the rocket
+
+        'Making and launching the rocket in the first world
+
 
 loopstartRocket:
 
-        '?
         Console.BackgroundColor = ConsoleColor.DarkCyan
-        For i = 10 To 45
-            Console.SetCursorPosition(35, i)
-            Console.Write(Space(80))
+        For i = 10 To 38
+            Console.SetCursorPosition(0, i)
+            Console.Write(Space(75))
         Next
 
-            Console.BackgroundColor = ConsoleColor.Red
-            Console.ForegroundColor = ConsoleColor.Red
-            Console.SetCursorPosition(38, y)
-            Console.Write("/\")
-            Console.SetCursorPosition(37, y + 1)
-            Console.Write("/  \")
-            Console.SetCursorPosition(36, y + 2)
-            Console.Write("/    \")
-            Console.SetCursorPosition(35, y + 3)
-            Console.Write("/      \")
-            Console.SetCursorPosition(34, y + 4)
-            Console.Write("/        \")
+        'MsgBox("value of y is " & y)
 
-            Console.BackgroundColor = ConsoleColor.DarkGray
+        Console.BackgroundColor = ConsoleColor.Red
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.SetCursorPosition(38, y)
+        Console.Write("/\")
+        Console.SetCursorPosition(37, y + 1)
+        Console.Write("/  \")
+        Console.SetCursorPosition(36, y + 2)
+        Console.Write("/    \")
+        Console.SetCursorPosition(35, y + 3)
+        Console.Write("/      \")
+        Console.SetCursorPosition(34, y + 4)
+        Console.Write("/        \")
 
-            For i = 5 To 17
-                Console.SetCursorPosition(34, y + i)
+        Console.BackgroundColor = ConsoleColor.DarkGray
+
+        For i = 5 To 17
+            Console.SetCursorPosition(34, y + i)
             Console.Write(Space(10))
+        Next
 
-            Next
+        Console.BackgroundColor = ConsoleColor.Black
+        Console.SetCursorPosition(37, y + 7)
+        Console.Write(Space(4))
+        Console.SetCursorPosition(37, y + 8)
+        Console.Write(Space(4))
 
-            Console.BackgroundColor = ConsoleColor.Black
-            Console.SetCursorPosition(37, y + 7)
-            Console.Write(Space(4))
-            Console.SetCursorPosition(37, y + 8)
-            Console.Write(Space(4))
+        Console.BackgroundColor = ConsoleColor.Red
+        For i = 0 To 4
+            Console.SetCursorPosition(32, y + 15 + i)
+            Console.Write(Space(1))
+        Next
 
-            Console.BackgroundColor = ConsoleColor.Red
-            For i = 0 To 4
-                Console.SetCursorPosition(32, y + 15 + i)
-                Console.Write(Space(1))
-            Next
+        For i = 0 To 6
+            Console.SetCursorPosition(33, y + 13 + i)
+            Console.Write(Space(1))
+        Next
 
-            For i = 0 To 6
-                Console.SetCursorPosition(33, y + 13 + i)
-                Console.Write(Space(1))
-            Next
+        For i = 0 To 4
+            Console.SetCursorPosition(45, y + 15 + i)
+            Console.Write(Space(1))
+        Next
 
-            For i = 0 To 4
-                Console.SetCursorPosition(45, y + 15 + i)
-                Console.Write(Space(1))
-            Next
+        For i = 0 To 6
+            Console.SetCursorPosition(44, y + 13 + i)
+            Console.Write(Space(1))
+        Next
 
-            For i = 0 To 6
-                Console.SetCursorPosition(44, y + 13 + i)
-                Console.Write(Space(1))
-            Next
+        y = y - 1
 
-            y = y - 1
+        If y = 1 Then GoTo programendRocket
 
-            If y = 1 Then GoTo programendRocket
+        Sleep(300)
 
-        Sleep(60)
-            GoTo loopstartRocket
+        GoTo loopstartRocket
 
 programendRocket:
 
+
         Sleep(300)
+
+
         'Making the second world
+
         Console.BackgroundColor = ConsoleColor.Black
         Console.Clear()
         Console.BackgroundColor = ConsoleColor.Gray
         Console.SetCursorPosition(0, 49)
         Console.Write(Space(550))
 
-        'Making earth
+
+        'Making Earth
 
         Console.SetCursorPosition(30, 4)
         Console.BackgroundColor = ConsoleColor.Blue
@@ -287,6 +293,7 @@ programendRocket:
             Console.SetCursorPosition(60, i)
             Console.Write(Space(9))
         Next
+
         Console.SetCursorPosition(62, 4)
         Console.BackgroundColor = ConsoleColor.Green
         Console.Write(Space(3))
@@ -302,6 +309,9 @@ programendRocket:
         Console.SetCursorPosition(60, 8)
         Console.BackgroundColor = ConsoleColor.White
         Console.Write(Space(2))
+
+
+        'Making the Rocket in the second world
 
 loopstartRocket2:
 
@@ -341,6 +351,7 @@ loopstartRocket2:
         Console.Write(Space(4))
 
         Console.BackgroundColor = ConsoleColor.Red
+
         For i = 0 To 4
             Console.SetCursorPosition(12, z + 15 + i)
             Console.Write(Space(1))
@@ -361,6 +372,29 @@ loopstartRocket2:
             Console.Write(Space(1))
         Next
 
+
+        Console.Beep(100, 1500)
+
+
+
+        'Writing a message
+
+        Console.BackgroundColor = ConsoleColor.Black
+        Console.ForegroundColor = ConsoleColor.Yellow
+        Console.SetCursorPosition(30, 26)
+
+        Console.Write("Yay, we're on the moon!")
+        Console.Beep(1500, 300)
+        Console.Beep(1200, 300)
+        Console.Beep(1500, 300)
+        Console.Beep(2500, 300)
+
+
+        'Covering the "press any key to continue" message
+
+        Console.SetCursorPosition(0, 0)
+        Console.ForegroundColor = ConsoleColor.Black
+        Console.CursorVisible = False
 
 
     End Sub
