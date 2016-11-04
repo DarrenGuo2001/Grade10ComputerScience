@@ -1,0 +1,16 @@
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\bin\Debug\Interaction Project.exe
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\bin\Debug\Interaction Project.pdb
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\bin\Debug\Interaction Project.xml
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\obj\x86\Debug\ConsoleApplication1.Resources.resources
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.vbproj.GenerateResource.Cache
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.exe
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.xml
+\\2190M01\Users\Student\GuoDarr996\Visual Studio 2010\Projects\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.pdb
+M:\Interaction Project\Interaction Project\bin\Debug\Interaction Project.exe
+M:\Interaction Project\Interaction Project\bin\Debug\Interaction Project.pdb
+M:\Interaction Project\Interaction Project\bin\Debug\Interaction Project.xml
+M:\Interaction Project\Interaction Project\obj\x86\Debug\ConsoleApplication1.Resources.resources
+M:\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.vbproj.GenerateResource.Cache
+M:\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.exe
+M:\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.xml
+M:\Interaction Project\Interaction Project\obj\x86\Debug\Interaction Project.pdb
