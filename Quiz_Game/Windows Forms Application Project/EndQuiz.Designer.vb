@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormEndQuiz
+Partial Class EndQuiz
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -46,14 +46,15 @@ Partial Class FormEndQuiz
         Me.Button1.Text = "Click to check your score"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'FormEndQuiz
+        'EndQuiz
         '
+        Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(334, 312)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "FormEndQuiz"
+        Me.Name = "EndQuiz"
         Me.Text = "End of Quiz"
         Me.ResumeLayout(False)
         Me.PerformLayout()

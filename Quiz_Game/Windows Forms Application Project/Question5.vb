@@ -13,7 +13,7 @@
         ' Showing the next question
 
         Me.Hide()
-        FormEndQuiz.Show()
+        EndQuiz.Show()
 
     End Sub
 End Class

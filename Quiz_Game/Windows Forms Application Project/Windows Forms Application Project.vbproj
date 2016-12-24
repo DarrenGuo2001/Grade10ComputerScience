@@ -8,11 +8,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{284A341E-B51F-424D-93A9-52C387A07185}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <StartupObject>WindowsApplication1.StartQuiz</StartupObject>
     <RootNamespace>WindowsApplication1</RootNamespace>
-    <AssemblyName>Windows Forms Application Project</AssemblyName>
+    <AssemblyName>Quiz Game</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Windows Forms Application Project.xml</DocumentationFile>
+    <DocumentationFile>Quiz Game.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Windows Forms Application Project.xml</DocumentationFile>
+    <DocumentationFile>Quiz Game.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -47,6 +47,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -153,9 +156,6 @@
     <EmbeddedResource Include="Question5.resx">
       <DependentUpon>Question5.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>EndQuiz.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -164,6 +164,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

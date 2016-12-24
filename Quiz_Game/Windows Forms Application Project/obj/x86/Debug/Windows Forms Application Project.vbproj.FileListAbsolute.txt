@@ -1,0 +1,15 @@
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\bin\Debug\Quiz Game.exe
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\bin\Debug\Quiz Game.pdb
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\bin\Debug\Quiz Game.xml
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.EndQuiz.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.StartQuiz.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Question1.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Question2.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Question3.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Question4.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Question5.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\Windows Forms Application Project.vbproj.GenerateResource.Cache
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\Quiz Game.exe
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\Quiz Game.xml
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Quiz_Game\Windows Forms Application Project\obj\x86\Debug\Quiz Game.pdb
