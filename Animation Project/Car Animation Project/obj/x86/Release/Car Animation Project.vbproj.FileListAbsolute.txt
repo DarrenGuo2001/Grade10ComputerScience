@@ -30,3 +30,11 @@ N:\Car Animation Project\Car Animation Project\bin\Release\Car Animation Project
 N:\Car Animation Project\Car Animation Project\bin\Release\Car Animation Project.xml
 N:\Car Animation Project\Car Animation Project\obj\x86\Release\ConsoleApplication1.Resources.resources
 N:\Car Animation Project\Car Animation Project\obj\x86\Release\Car Animation Project.vbproj.GenerateResource.Cache
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\obj\x86\Release\Car Animation Project.exe
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\obj\x86\Release\Car Animation Project.xml
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\obj\x86\Release\Car Animation Project.pdb
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\bin\Release\Car Animation Project.exe
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\bin\Release\Car Animation Project.pdb
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\bin\Release\Car Animation Project.xml
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\obj\x86\Release\ConsoleApplication1.Resources.resources
+C:\Users\Gene\Documents\GitHub\Grade10ComputerScience\Animation Project\Car Animation Project\obj\x86\Release\Car Animation Project.vbproj.GenerateResource.Cache
