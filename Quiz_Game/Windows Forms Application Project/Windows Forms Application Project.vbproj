@@ -72,46 +72,46 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="StartQuiz.Designer.vb">
+      <DependentUpon>StartQuiz.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="StartQuiz.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="Question1.Designer.vb">
+      <DependentUpon>Question1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="Question1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="Question2.Designer.vb">
+      <DependentUpon>Question2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="Question2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.vb">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <Compile Include="Question3.Designer.vb">
+      <DependentUpon>Question3.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form6.vb">
+    <Compile Include="Question3.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.vb">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <Compile Include="Question4.Designer.vb">
+      <DependentUpon>Question4.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form7.vb">
+    <Compile Include="Question4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.vb">
-      <DependentUpon>frmEndQuiz.vb</DependentUpon>
+    <Compile Include="Question5.Designer.vb">
+      <DependentUpon>Question5.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmEndQuiz.vb">
+    <Compile Include="Question5.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStart.Designer.vb">
-      <DependentUpon>frmStart.vb</DependentUpon>
+    <Compile Include="EndQuiz.Designer.vb">
+      <DependentUpon>EndQuiz.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmStart.vb">
+    <Compile Include="EndQuiz.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GlobalVariables.vb" />
@@ -132,26 +132,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="EndQuiz.resx">
+      <DependentUpon>EndQuiz.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="StartQuiz.resx">
+      <DependentUpon>StartQuiz.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="Question1.resx">
+      <DependentUpon>Question1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <EmbeddedResource Include="Question2.resx">
+      <DependentUpon>Question2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <EmbeddedResource Include="Question3.resx">
+      <DependentUpon>Question3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question5.resx">
+      <DependentUpon>Question5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>frmEndQuiz.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmStart.resx">
-      <DependentUpon>frmStart.vb</DependentUpon>
+      <DependentUpon>EndQuiz.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

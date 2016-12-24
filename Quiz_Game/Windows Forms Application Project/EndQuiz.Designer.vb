@@ -39,22 +39,22 @@ Partial Class FormEndQuiz
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(79, 188)
+        Me.Button1.Location = New System.Drawing.Point(68, 183)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(205, 23)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Click to check your score"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Form8
+        'FormEndQuiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(334, 312)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form8"
-        Me.Text = "Form8"
+        Me.Name = "FormEndQuiz"
+        Me.Text = "End of Quiz"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
